@@ -16,6 +16,18 @@ const App = () => {
     metadata: {
       name,
       phone,
+      "custom_fields": [
+      {
+        "display_name": "Invoice ID",
+        "variable_name": "Invoice ID",
+        "value": 209
+      },
+      {
+        "display_name": "Cart Items",
+        "variable_name": "cart_items",
+        "value": "3 bananas, 12 mangoes"
+      }
+    ],
     },
     publicKey,
     text: "Pay Now",
